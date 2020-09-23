@@ -1,0 +1,95 @@
+@charset "utf-8";
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+/*==MENU==*/
+#banner{
+    background-color: rgba(255,255,255,0);
+    height: 30px;
+    padding: 30px 70px 30px 100px;
+}
+#banner nav{
+    float: right;
+    position: relative;
+    top: 10px;
+}
+#banner ul{
+    margin: 0px 100px 0px 0px;
+}
+#banner nav ul li{
+    display: inline-block;
+    width: 130px;
+}
+#banner nav ul li a {
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+    text-shadow: black ;
+}
+#banner nav a:hover{
+    color: #00a2ff8a;
+}
+#banner a.azul{
+    color: teal;
+    font-size: 21pt;
+    font-weight:bold;
+    font-family:arial;
+}
+/***corpo***/
+section#corpo-principal {
+    display: block;
+    width: 450px;
+    float: left;
+    margin-top: 40px;
+    padding-right: 10px;
+    padding-left: 40px;
+}
+article#anuncio-texto h2 p{
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: grey;
+}
+.direita{
+    font-size: 30pt;
+    font-weight: bolder;
+    font-family: fantasy;
+}
+p.esquerda{
+    color: #00a2ff8a ;
+    font-weight: bolder;
+    font-size: 18pt;
+}
+aside#corpo-sec{
+	float: right;  	
+    width: 400px;  	
+    height: 300px;
+    margin-top: 100px;
+    padding-top: 100px;
+}
+article#ajuste h2 p{
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: grey;
+}
+#botao a {
+    margin-left: 100px;
+    font-family: Arial;
+    font-weight: bold;
+    background-color: rgba(5, 148, 141, 0.863);
+    padding: 15px;
+    border-radius: 150px;
+    text-decoration: none;
+    color: white;
+}
+#botao a:hover{
+    color: rgb(0, 0, 0)
+}
+div#foto{
+    margin: 0;
+    margin-top: 100px;
+}
